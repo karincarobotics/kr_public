@@ -1,0 +1,12 @@
+# rosdep.yaml
+SQLiteCpp:
+  ubuntu:
+    jammy: [libsqlitecpp-dev]
+    noble: [libsqlitecpp-dev]
+  debian:
+    bullseye: [libsqlitecpp-dev]
+  # For source installation (if package not available)
+  source:
+    url: https://github.com/SRombauts/SQLiteCpp.git
+    type: git
+    version: 3.3.1

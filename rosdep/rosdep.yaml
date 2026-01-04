@@ -10,3 +10,8 @@ SQLiteCpp:
     url: https://github.com/SRombauts/SQLiteCpp.git
     type: git
     version: 3.3.1
+yolo_msgs:
+  source:
+    url: https://github.com/karincarobotics/ext_ros2_yolo_ros.git
+    type: git
+    version: main
